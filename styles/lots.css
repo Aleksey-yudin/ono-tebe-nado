@@ -19,40 +19,35 @@
 
 .lots-overlay {
     background-color: rgba(0, 0, 0, 0.6);
-    width: 430px;
+    width: 100%;
     height: 450px;
     position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .lots-item {
     list-style: none;
 }
 
-.lots-card-1 {
+.lots-card-item {
     display: grid;
     grid-area: 1/2;
-    background-image: url(../images/card-lot-01.jpg);
-    background-repeat: round;
     width: 430px;
-    height: 450px;
+    min-height: 450px;
+    background-repeat: round;
+}
+
+.lots-card-1 {
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 .lots-card-2 {
-    display: grid;
-    grid-area: 1/2;
     background-image: url(../images/card-lot-02.jpg);
-    background-repeat: round;
-    width: 430px;
-    height: 450px;
 }
 
 .lots-card-3 {
-    display: grid;
-    grid-area: 1/2;
     background-image: url(../images/card-lot-03.jpg);
-    background-repeat: round;
-    width: 430px;
-    height: 450px;
 }
 
 .lots-item-title {

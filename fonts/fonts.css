@@ -2,8 +2,8 @@
     font-display: swap;
     font-family: 'Raleway';
     src:
-      url(/ono-tebe-nado/fonts/Raleway-Regular.woff2) format('woff2'),
-      url(/ono-tebe-nado/fonts/Raleway-Regular.woff) format('woff');
+      url(Raleway-Regular.woff2) format('woff2'),
+      url(Raleway-Regular.woff) format('woff');
     font-weight: normal;
   }
   
@@ -11,7 +11,7 @@
     font-display: swap;
     font-family: 'Raleway';
     src:
-      url(/ono-tebe-nado/fonts/Raleway-Bold.woff2) format('woff2'),
-      url(/ono-tebe-nado/fonts/Raleway-Bold.woff) format('woff');
+      url(Raleway-Bold.woff2) format('woff2'),
+      url(Raleway-Bold.woff) format('woff');
     font-weight: bold;
   }
