@@ -1,12 +1,18 @@
 .header {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     align-items: center;
-    width: 1340px;
-    margin: 0 auto 92px auto;
+    min-width: 1340px;
+    padding-right: 50px;
+    padding-left: 50px;
     padding-top: 92px;
+    margin-bottom: 96px;
     font-size: 18px;
+}
+
+.nav {
+    margin-right: auto;
 }
 
 .header-menu-list {
@@ -20,14 +26,15 @@
 
 .header-menu-item:nth-child(1) {
     text-decoration: none;
+    list-style: none;
 }
 
 .header-logo {
-    max-width: 130px;
-    transform: translate(-50%);
+    max-width: 140px;
 }
 
 .header-contacts {
+    margin-left: auto;
     max-width: 240px;
 }
 
