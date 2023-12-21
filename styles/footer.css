@@ -25,11 +25,11 @@
     list-style: none;
 }
 
-.footer-menu-item {
+.footer-menu-item_anactive {
     text-decoration: underline;
 }
 
-.footer-menu-item:nth-child(1) {
+.footer-menu-item_active {
     text-decoration: none;
 }
 

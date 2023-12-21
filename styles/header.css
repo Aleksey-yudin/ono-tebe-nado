@@ -20,12 +20,15 @@
     gap: 30px;
 }
 
-.header-menu-item {
+.header-menu-item_anactive {
     text-decoration: underline;
 }
 
-.header-menu-item:nth-child(1) {
+.header-menu-item_active {
     text-decoration: none;
+}
+
+.header-menu-item:nth-child(1) {
     list-style: none;
 }
 

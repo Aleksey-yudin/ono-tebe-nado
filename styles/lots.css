@@ -36,7 +36,8 @@
     grid-area: 1/2;
     width: 430px;
     min-height: 450px;
-    background-repeat: round;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .lots-card-1 {
